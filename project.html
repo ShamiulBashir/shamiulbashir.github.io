@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Projects || A.T.M Shamiul Bashir</title>
+
+    <!-- Title Icon -->
+    <link type="image/png" rel="icon" href="assets/img/favicon.png"/>
+
+    <!-- Cascading Style Sheet (CSS) -->
+    <link type="text/css" rel="Stylesheet" href="assets/css/AppStylePack-CSS-Importer.css"/>
+    <link type="text/css" rel="Stylesheet" href="assets/css/portfolio.filter.css"/>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!-- preloader -->
+<script type="text/javascript" src="assets/js/preloader.js"></script>
+
+<!-- header -->
+<header>
+    <!-- site title -->
+    <h1 class="text-center">
+        <!--            <img src="assets/img/logo.png" class="align-center img-logo"/>-->
+        <span id="header-title-sam">A.T.M Shamiul Bashir</span>
+    </h1>
+
+    <!-- navigation -->
+    <div class="text-center">
+        <ul class="block-menu">
+            <li><a href="home.html" class="three-d">Home
+                <span aria-hidden="true" class="three-d-box">
+                        <span class="front">Home</span>
+                        <span class="back">Home</span>
+                    </span>
+            </a></li>
+            <li><a href="about.html" class="three-d">Bio
+                <span aria-hidden="true" class="three-d-box">
+                        <span class="front">Bio</span>
+                        <span class="back">Bio</span>
+                    </span>
+            </a></li>
+            <li><a href="experience_timeline.html" class="three-d">Experience
+                <span aria-hidden="true" class="three-d-box">
+                        <span class="front">Experience</span>
+                        <span class="back">Experience</span>
+                    </span>
+            </a></li>
+            <li><a href="project.html" class="three-d">Projects
+                <span aria-hidden="true" class="three-d-box">
+                        <span class="front">Projects</span>
+                        <span class="back">Projects</span>
+                    </span>
+            </a></li>
+            <li><a href="skill.html" class="three-d">Skills
+                <span aria-hidden="true" class="three-d-box">
+                        <span class="front">Skills</span>
+                        <span class="back">Skills</span>
+                    </span>
+            </a></li>
+            <li><a href="scouting.html" class="three-d">Scouting
+                <span aria-hidden="true" class="three-d-box">
+                        <span class="front">Scouting</span>
+                        <span class="back">Scouting</span>
+                    </span>
+            </a></li>
+            <li><a href="cv.html" class="three-d">CV
+                <span aria-hidden="true" class="three-d-box">
+                        <span class="front">CV</span>
+                        <span class="back">CV</span>
+                    </span>
+            </a></li>
+            <li><a href="contact.html" class="three-d">Contact
+                <span aria-hidden="true" class="three-d-box">
+                        <span class="front">Contact</span>
+                        <span class="back">Contact</span>
+                    </span>
+            </a></li>
+        </ul>
+    </div>
+</header>
+<!-- end header -->
+
+<!-- main body -->
+<section class="animated zoomIn">
+    <!-- project -->
+    <div class="row no-margin padding-top-10px shape-bottom">
+        <div class="container-fluid block-title">
+            <h2 class="text-uppercase text-center theme-text">Projects</h2>
+            <div class="title-icon"><i class="fa fa-connectdevelop"></i></div>
+        </div>
+    </div>
+
+    <!-- project block -->
+    <div class="container project-block-section">
+
+        <div class="row">
+            <div id="portfolioFilterBtnContainer" class="col-xs-12 portfolio-filter-btn-container">
+                <button class="btn btn-default active" onclick="portfolioFilterSelection('all')">All</button>
+                <button class="btn btn-default" onclick="portfolioFilterSelection('dev_single')">Single Player</button>
+                <button class="btn btn-default" onclick="portfolioFilterSelection('dev_team')">Team Player</button>
+                <button class="btn btn-default" onclick="portfolioFilterSelection('dev_company')">Develop for Company
+                </button>
+                <button class="btn btn-default" onclick="portfolioFilterSelection('training')">Training</button>
+            </div>
+        </div>
+
+        <!-- <div data-sort="0" class="row w3-container w3-theme project-block portfolio-filter-item all">
+            <div class="col-md-6 project-content">
+                <div>
+                    <div class="left"><i class="fa fa-briefcase"></i>Project:</div>
+                    <div class="right">__Project</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-user"></i>Role:</div>
+                    <div class="right">__Role</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-institution"></i>Author:</div>
+                    <div class="right">__Author</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-tags"></i>Category:</div>
+                    <div class="right">__Category</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-history"></i>Year:</div>
+                    <div class="right">__Year</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-paperclip"></i>Link:</div>
+                    <div class="right">__Link</div>
+                </div>
+                <hr/>
+                <div>
+                    <div class="left"><i class="fa fa-newspaper-o"></i>Description:</div>
+                    <div class="right">__Description</div>
+                </div>
+            </div>
+            <div class="col-md-6 project-slider">
+                <div id="carousel001" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel001" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel001" data-slide-to="1"></li>
+                        <li data-target="#carousel001" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active"><img src="assets/img/project/project_001/1.jpg"></div>
+                        <div class="item"><img src="assets/img/project/project_001/2.jpg"></div>
+                        <div class="item"><img src="assets/img/project/project_001/3.jpg"></div>
+                    </div>
+
+                    <a class="left carousel-control" href="#carousel001" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel001" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+
+        <div data-sort="41"
+             class="row w3-container w3-theme project-block portfolio-filter-item all dev_single dev_company">
+            <div class="col-md-6 project-content">
+                <div>
+                    <div class="left"><i class="fa fa-briefcase"></i>Project:</div>
+                    <div class="right">Odoo Customization for E-Recruitment System</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-user"></i>Role:</div>
+                    <div class="right">Odoo Developer</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-institution"></i>Author:</div>
+                    <div class="right">Daffodil International University (DIU)</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-tags"></i>Category:</div>
+                    <div class="right">Odoo (ERP)</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-history"></i>Year:</div>
+                    <div class="right">2022</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-paperclip"></i>Link:</div>
+                    <div class="right"><a target="_blank" href="http://pd.daffodilvarsity.edu.bd/jobs">pd.daffodilvarsity.edu.bd/jobs</a>
+                    </div>
+                </div>
+                <hr/>
+                <div>
+                    <div class="left"><i class="fa fa-newspaper-o"></i>Description:</div>
+                    <div class="right">Odoo (ERP) customization about job posting, application, application shortlist, email, online meeting, applicant portal account, applicant job apply, applicant profile update, dashboard, invoice. Developed using Python, XML and JavaScript technology.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 project-slider">
+                <div id="carousel041" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel041" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel041" data-slide-to="1"></li>
+                        <li data-target="#carousel041" data-slide-to="2"></li>
+                        <li data-target="#carousel041" data-slide-to="3"></li>
+                        <li data-target="#carousel041" data-slide-to="4"></li>
+                        <li data-target="#carousel041" data-slide-to="5"></li>
+                        <li data-target="#carousel041" data-slide-to="6"></li>
+                        <li data-target="#carousel041" data-slide-to="7"></li>
+                        <li data-target="#carousel041" data-slide-to="8"></li>
+                        <li data-target="#carousel041" data-slide-to="9"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active"><img src="assets/img/project/041/1.png"></div>
+                        <div class="item"><img src="assets/img/project/041/2.png"></div>
+                        <div class="item"><img src="assets/img/project/041/3.png"></div>
+                        <div class="item"><img src="assets/img/project/041/4.png"></div>
+                        <div class="item"><img src="assets/img/project/041/5.png"></div>
+                        <div class="item"><img src="assets/img/project/041/6.png"></div>
+                        <div class="item"><img src="assets/img/project/041/7.png"></div>
+                        <div class="item"><img src="assets/img/project/041/8.png"></div>
+                        <div class="item"><img src="assets/img/project/041/9.png"></div>
+                        <div class="item"><img src="assets/img/project/041/10.png"></div>
+                    </div>
+
+                    <a class="left carousel-control" href="#carousel041" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel041" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div data-sort="42"
+             class="row w3-container w3-theme project-block portfolio-filter-item all dev_single dev_team">
+            <div class="col-md-6 project-content">
+                <div>
+                    <div class="left"><i class="fa fa-briefcase"></i>Project:</div>
+                    <div class="right">Odoo Customization for Vehicle Management System</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-user"></i>Role:</div>
+                    <div class="right">Odoo Developer</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-institution"></i>Author:</div>
+                    <div class="right">A.T.M Shamiul Bashir</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-tags"></i>Category:</div>
+                    <div class="right">Odoo (ERP)</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-history"></i>Year:</div>
+                    <div class="right">2022</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-paperclip"></i>Link:</div>
+                    <div class="right"><a target="_blank" href="https://github.com/ShamiulBashir/vehicle_managment_system">Vehicle Management System</a>
+                    </div>
+                </div>
+                <hr/>
+                <div>
+                    <div class="left"><i class="fa fa-newspaper-o"></i>Description:</div>
+                    <div class="right">Odoo (ERP) customization about vehicle record, customer record, repair, discount and invoice. Developed using Python, XML and JavaScript technology.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 project-slider">
+                <div id="carousel042" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel042" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel042" data-slide-to="1"></li>
+                        <li data-target="#carousel042" data-slide-to="2"></li>
+                        <li data-target="#carousel042" data-slide-to="3"></li>
+                        <li data-target="#carousel042" data-slide-to="4"></li>
+                        <li data-target="#carousel042" data-slide-to="5"></li>
+                        <li data-target="#carousel042" data-slide-to="6"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active"><img src="assets/img/project/042/1.png"></div>
+                        <div class="item"><img src="assets/img/project/042/2.png"></div>
+                        <div class="item"><img src="assets/img/project/042/3.png"></div>
+                        <div class="item"><img src="assets/img/project/042/4.png"></div>
+                        <div class="item"><img src="assets/img/project/042/5.png"></div>
+                        <div class="item"><img src="assets/img/project/042/6.png"></div>
+                        <div class="item"><img src="assets/img/project/042/7.png"></div>
+                    </div>
+
+                    <a class="left carousel-control" href="#carousel042" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel042" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div data-sort="40" class="row w3-container w3-theme project-block portfolio-filter-item all dev_single">
+            <div class="col-md-6 project-content">
+                <div>
+                    <div class="left"><i class="fa fa-briefcase"></i>Project:</div>
+                    <div class="right">Donation Management System</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-user"></i>Role:</div>
+                    <div class="right">Team Lead</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-institution"></i>Author:</div>
+                    <div class="right">A.T.M Shamiul Bashir and Maisha Monsur</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-tags"></i>Category:</div>
+                    <div class="right">Web Portal (Laravel)</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-history"></i>Year:</div>
+                    <div class="right">2020</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-paperclip"></i>Link:</div>
+                    <div class="right"><a target="_blank" href="https://github.com/ShamiulBashir/DonationBd">Donation Management System</a></div>
+                </div>
+                <hr/>
+                <div>
+                    <div class="left"><i class="fa fa-newspaper-o"></i>Description:</div>
+                    <div class="right">Multi language based official website and portal. Developed using PHP, HTML5 and
+                        JavaScript technology.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 project-slider">
+                <div id="carousel038" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel038" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel038" data-slide-to="1"></li>
+                        <li data-target="#carousel038" data-slide-to="2"></li>
+                        <li data-target="#carousel038" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active"><img src="assets/img/project/040/1.png"></div>
+                        <div class="item"><img src="assets/img/project/040/2.png"></div>
+                        <div class="item"><img src="assets/img/project/040/3.png"></div>
+                        <div class="item"><img src="assets/img/project/040/4.png"></div>
+                    </div>
+
+                    <a class="left carousel-control" href="#carousel038" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel038" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div data-sort="37"
+             class="row w3-container w3-theme project-block portfolio-filter-item all dev_team dev_company">
+            <div class="col-md-6 project-content">
+                <div>
+                    <div class="left"><i class="fa fa-briefcase"></i>Project:</div>
+                    <div class="right">Smart Edu (DIU)</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-user"></i>Role:</div>
+                    <div class="right">Team Member</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-institution"></i>Author:</div>
+                    <div class="right">Daffodil International University</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-tags"></i>Category:</div>
+                    <div class="right">Odoo (ERP)</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-history"></i>Year:</div>
+                    <div class="right">2020</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-paperclip"></i>Link:</div>
+                    <div class="right"><a target="_blank" href="http://pd.daffodilvarsity.edu.bd/">pd.daffodilvarsity.edu.bd</a>
+                    </div>
+                </div>
+                <hr/>
+                <div>
+                    <div class="left"><i class="fa fa-newspaper-o"></i>Description:</div>
+                    <div class="right">A robust educational ERP with full organizational features. Developed using Python, XML and JavaScript technology.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 project-slider">
+                <div id="carousel037" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel037" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel037" data-slide-to="1"></li>
+                        <li data-target="#carousel037" data-slide-to="2"></li>
+                        <li data-target="#carousel037" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active"><img src="assets/img/project/037/1.jpg"></div>
+                        <div class="item"><img src="assets/img/project/037/2.jpg"></div>
+                        <div class="item"><img src="assets/img/project/037/3.jpg"></div>
+                        <div class="item"><img src="assets/img/project/037/4.jpg"></div>
+                    </div>
+
+                    <a class="left carousel-control" href="#carousel037" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel037" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div data-sort="39" class="row w3-container w3-theme project-block portfolio-filter-item all dev_team">
+            <div class="col-md-6 project-content">
+                <div>
+                    <div class="left"><i class="fa fa-briefcase"></i>Project:</div>
+                    <div class="right">Finder Lawyer</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-user"></i>Role:</div>
+                    <div class="right">Team Member</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-institution"></i>Author:</div>
+                    <div class="right">Umme Fatema Tuj Asha</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-tags"></i>Category:</div>
+                    <div class="right">Laravel</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-history"></i>Year:</div>
+                    <div class="right">2020</div>
+                </div>
+                <div>
+                    <div class="left"><i class="fa fa-paperclip"></i>Link:</div>
+                    <div class="right"><a target="_blank" href="#">N/A </a></div>
+                </div>
+                <hr/>
+                <div>
+                    <div class="left"><i class="fa fa-newspaper-o"></i>Description:</div>
+                    <div class="right">Digital way finder lawyer and case solver. Developed using PHP, HTML5 and
+                        JavaScript technology.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 project-slider">
+                <div id="carousel036" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel036" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel036" data-slide-to="1"></li>
+                        <li data-target="#carousel036" data-slide-to="2"></li>
+                        <li data-target="#carousel036" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active"><img src="assets/img/project/039/1.jpeg"></div>
+                        <div class="item"><img src="assets/img/project/039/2.jpeg"></div>
+                        <div class="item"><img src="assets/img/project/039/3.jpeg"></div>
+                        <div class="item"><img src="assets/img/project/039/4.jpeg"></div>
+                    </div>
+
+                    <a class="left carousel-control" href="#carousel036" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel036" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+<!-- end main body -->
+
+<!-- footer -->
+<footer class="w3-container w3-theme navbar-fixed-bottom">
+    <p class="padding-top-10px text-center">&copy; <span id="current_year">2020</span> <a class="footer-link"
+                                                                                          href="https://shamiulbashir.github.io/">A.T.M
+        Shamiul Bashir</a>. All Rights Reserved.</p>
+</footer>
+<!-- end footer -->
+
+<!-- Go Back To Top Button -->
+<a class="to-top"><span class="fa fa-2x fa-arrow-up padding-all-10px animated bounceInUp"></span></a>
+<!-- JavaScript (JS) -->
+<script type="text/javascript" src="assets/js/AppStylePack-JS-Importer.js"></script>
+<script type="text/javascript" src="assets/js/portfolio.filter.js"></script>
+</body>
+</html>

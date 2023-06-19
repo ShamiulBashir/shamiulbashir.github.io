@@ -1,0 +1,93 @@
+/*
+	Document	: SB Theme Replacer
+	Type		: Cascading Style Sheet (CSS)
+	Author		: A.T.M Shamiul Bashir
+	Website		: http://shamiul.engineer
+	Description	: © 2020 - 2022 Shamiul Bashir.
+*/
+
+
+
+@charset"UTF-8";
+
+/*  Default Blue Color:-
+    Normal: #2196F3
+    Dark:   #177EE5
+*/
+
+.body-index
+{
+    background-color: #F44336;
+    color: #fff;
+}
+
+.rope
+{
+    background-color: #B71C1C; /*dark*/
+}
+
+.title-site
+{
+    border: 5px solid #B71C1C; /*dark*/
+    background-color: #B71C1C; /*normal*/
+}
+
+footer.w3-theme p
+{
+    color: #fff !important;
+}
+
+#nav-fm li a,#nav-fm2 li a
+{
+	color:#F44336;
+	background: #fff;
+}
+
+/*normal color use here*/
+.block-menu
+{
+	background: #F44336;
+}
+
+.front, .back
+{
+	background: #F44336;
+	color: #fff;
+}
+
+.btn-con, .btn-con:active, .btn-con:focus
+{
+    color: #F44336;
+    border: 3px solid #F44336;
+}
+
+.btn-con:hover
+{
+    color: #F44336;
+    background-color: #F44336;
+}
+
+.to-top
+{
+	border: 2px solid #F44336;
+}
+
+.to-top :hover
+{
+	color: #F44336;
+}
+
+/*dark color use here*/
+.gallery-div:hover
+{
+    background-color: #F44336 !important;
+}
+
+.address-circle i
+{
+    color: #fff;
+    background-color: #F44336;
+}
+
+
+/* The End */
